@@ -1,0 +1,343 @@
+@import "./variable";
+@import "./maxim";
+@import "./Login.scss";
+@import "./signup.scss";
+@import "./aboutus.scss";
+@import "./egypt.scss";
+@import "./turkey.scss";
+@import "./tour.scss";
+
+
+
+
+
+
+// media starts
+@media (max-width:767px){
+    header{
+        .carousel{
+            .carousel-item{
+                .carousel-caption{
+                    h5{
+                        font-size: 16px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 476px ){
+    h2 {
+        &::after{
+            left:33% !important; 
+        }
+    }
+    footer{
+        .footer-img{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+}
+
+@media (min-width: 477px ) and (max-width:767px ){
+    h2 {
+        &::after{
+            left:39% !important; 
+        }
+    }
+    .header-services{
+        &::after{
+            left:37% !important; 
+        }
+    }
+    .header-about{
+        &::after{
+            left:37% !important; 
+        }
+    }
+    footer{
+        .footer-img{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width: 991px ){
+    h2 {
+        &::after{
+            left:40% !important; 
+        }
+        
+    }
+    .tourist-tour-header{
+        &::after{
+            left:43% !important; 
+        }
+    }
+    .contact-us-header{
+            &::after{
+                left:43% !important; 
+            }
+    }
+}
+
+@media (min-width:991px) and (max-width: 1199px ){
+    .header-services{
+        &::after{
+            left:43% !important; 
+        }
+    }
+    .header-about{
+        &::after{
+            left:43% !important; 
+        }
+    }
+    .tourist-tour-header{
+        &::after{
+            left:44% !important; 
+        }
+    }
+    .contact-us-header{
+            &::after{
+                left:44% !important; 
+            }
+    }
+
+    // .tourist-tour{
+    //     .container{
+    //         .row{
+    //             .card{
+    //                 .card-body{
+    //                     bottom: 62px !important;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+
+
+
+}
+
+
+// media ends
+
+
+
+
+
+
+
+// header starts 
+header{
+    nav{
+        transition: 0.3s ease;
+        z-index: 2;
+        .container{
+            .navbar-brand{
+                img{
+                    width:50px;
+                    height: 50px;
+                    filter: invert(19%) sepia(87%) saturate(4316%) hue-rotate(352deg) brightness(98%) contrast(111%);
+                }
+            }
+            .navbar-collapse{
+                .navbar-nav{
+                    .nav-item{
+                        a{
+                            color:$black-color;
+                            &:hover{
+                                background-color: $background-color;
+                                color:$main-color
+                            }
+                        }
+                        a.active{
+                            background-color: $background-color;
+                            color:$main-color
+                        }
+                    }
+                }
+                .btn-login{
+                    @include button;
+                }
+            }
+        }
+    }
+    
+    nav.active{
+        background-color: $white-color;
+        height: 100px;
+        
+}    
+
+    .carousel{
+        padding-top: 80px;
+        .carousel-indicators{
+            img{
+                height: 50px;
+                width: 50px;
+            }
+        }
+        .carousel-inner{
+            .carousel-item{
+                img{
+                    height: 600px;
+                }
+                .carousel-caption{
+                    top:30%;
+                    .btn{
+                        @include button; 
+                    }
+                }
+            }
+        }
+    }
+}
+// header ends
+
+// main starts
+main{
+    padding-top: 80px;
+        .about-us{
+            margin-bottom: 80px;
+            h2{
+                @include header;
+            }
+            .about-text{
+                width:50%;
+                margin: 60px auto 20px;
+            }
+            .btn{
+                @include button;
+                
+            }
+        }
+        .services{
+            background-color: $services-background;
+            padding-top: 80px;
+            padding-bottom: 40px;
+            h2{
+                @include header;
+            }
+            p{
+                width:50%;
+                margin: 60px auto 60px;
+            }
+            .row{
+                svg{
+                    width: 50px;
+                    height: 50px;
+                    margin: 20px auto;
+                    color:$main-color;
+                }
+                img{
+                    width:50px;
+                    height: 50px;
+                    filter: invert(19%) sepia(87%) saturate(4316%) hue-rotate(352deg) brightness(98%) contrast(111%);
+                    margin: 20px auto;
+                }
+                p{
+                    margin:20px auto;
+                    width: 75%;
+                }
+            }
+        }
+        .tourist-tour{
+            padding-top:80px;
+            padding-bottom: 80px;
+            background-color: $white-color;
+            h2{
+                @include header; 
+            }
+            .container{
+                .row{
+                    margin-top: 50px;
+                    .card{
+                        background-color: transparent;
+                        border:none;
+                        position: relative;
+                        overflow: hidden;
+                        // height: 480px;
+                        &:hover{
+                            .card-body{
+                                bottom: 0;
+                            }
+                            img{
+                                transform: scale(1.1);
+                                transition: transform 0.5s ease-in-out ;
+                            }
+                        }
+                        span{
+                            position: absolute;
+                            top:35px;
+                            background-color: $main-color ;
+                            color:$white-color;
+                            padding: 10px;
+                            z-index: 2;
+                        }
+                        .card-body{
+                            position: absolute;
+                            bottom: -500px;
+                            background-color: $white-color;
+                            transition: 0.5s ease;
+                            h5
+                            {
+                                font-size: 20px;
+                                background-color: transparent;
+                            }
+                            .card-text{
+                                display: -webkit-box;
+                                -webkit-line-clamp: 2;
+                                overflow: hidden;
+                                -webkit-box-orient: vertical;
+                            }
+                            .btn{
+                                @include button;
+                                width: 150px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
+// main ends
+
+// footer starts
+footer{
+    padding-top: 80px;
+    background-color: $services-background;
+    .contact-us{
+        h2{
+            @include header;
+        }
+        .container{
+            .logo-footer{
+                filter: invert(19%) sepia(87%) saturate(4316%) hue-rotate(352deg) brightness(98%) contrast(111%);
+                width: 150px;
+                height: 150px;
+            }
+            svg{
+                color:$main-color
+            }
+        }
+    }
+    .copyRight{
+        padding-top:40px ;
+        padding-bottom: 40px;
+        background-color: $white-color;
+        h2{
+            color:$main-color;
+            font-size: 16px;
+        }
+    }
+
+}
+
+// footer ends

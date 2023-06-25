@@ -1,0 +1,459 @@
+.main-login {
+  background-image: url("../images/jordan-agaba.jpg");
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+.main-login .container .col-md-6 {
+  background-color: rgba(254, 36, 31, 0.2);
+  transform: translateY(81px);
+  padding: 30px;
+}
+.main-login .container .col-md-6 h2 {
+  color: #ffffff;
+}
+.main-login .container .col-md-6 h2 span {
+  font-size: 40px;
+  color: #FC2222;
+}
+.main-login .container .col-md-6 button {
+  background-color: #FC2222;
+  color: #ffffff;
+}
+.main-login .container .col-md-6 button:hover {
+  color: #FC2222;
+  background-color: #ffffff;
+}
+.main-login .container .col-md-6 label, .main-login .container .col-md-6 a {
+  color: #ffffff;
+}
+
+.main-signup {
+  background-image: url("../images/loginBackground.jpg");
+  height: 106vh;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+.main-signup .container h2 span {
+  color: #FC2222;
+}
+.main-signup .container .form-sigup {
+  background-color: rgba(254, 36, 31, 0.2);
+  padding: 30px;
+  width: 50%;
+}
+.main-signup .container .form-sigup button {
+  background-color: #FC2222;
+  color: #ffffff;
+}
+.main-signup .container .form-sigup button:hover {
+  color: #FC2222;
+  background-color: #ffffff;
+}
+.main-signup .container .form-sigup label {
+  color: #ffffff;
+}
+.main-signup .container .form-sigup a {
+  color: #ffffff;
+}
+
+.aboutus-main {
+  padding-top: 160px;
+  padding-bottom: 80px;
+}
+.aboutus-main h2 {
+  color: #FC2222;
+}
+.aboutus-main .team-member {
+  padding-top: 80px;
+}
+.aboutus-main .team-member .card {
+  margin-top: 80px;
+  border: none;
+}
+.aboutus-main .team-member .card img {
+  height: 100px;
+  width: 100px;
+}
+.aboutus-main .team-member .card .social-media svg.fa-facebook-f {
+  font-size: 20px;
+}
+.aboutus-main .team-member .card .social-media svg.fa-facebook-f:hover {
+  color: #1877F2;
+}
+.aboutus-main .team-member .card .social-media svg.fa-twitter {
+  font-size: 20px;
+}
+.aboutus-main .team-member .card .social-media svg.fa-twitter:hover {
+  color: #1A8CD8;
+}
+.aboutus-main .team-member .card .social-media svg.fa-linkedin-in {
+  font-size: 20px;
+}
+.aboutus-main .team-member .card .social-media svg.fa-linkedin-in:hover {
+  color: #0A66C2;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .black-layer .container .button {
+    transform: translate(0px, -382px) !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .black-layer .container .button {
+    transform: translate(0px, -250px) !important;
+  }
+}
+@media (min-width: 477px) and (max-width: 767px) {
+  .black-layer .container .button {
+    transform: translate(0px, -200px) !important;
+  }
+}
+@media (max-width: 476px) {
+  .black-layer .container .button {
+    transform: translate(0px, -158px) !important;
+  }
+}
+.main-egypt .background-egypt {
+  background-image: url("../images/egypt/2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 300px;
+  z-index: 0;
+}
+.main-egypt .background-egypt::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.244);
+  z-index: -1;
+}
+.main-egypt .background-egypt h2 {
+  color: #FC2222;
+  display: flex;
+  justify-content: center;
+  transform: translateY(113px);
+}
+.main-egypt .container {
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+.main-egypt .container .row h5 {
+  color: #FC2222;
+}
+.main-egypt .container .row p {
+  line-height: 1.7;
+}
+
+.black-layer {
+  background-color: rgba(0, 0, 0, 0.345);
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: -200vh;
+  transition: 0.5s linear;
+  z-index: 3;
+  overflow-y: scroll;
+}
+.black-layer .container h2 {
+  color: #FC2222;
+  padding-top: 160px;
+}
+.black-layer .container .btn-x {
+  background-color: #FC2222;
+  color: #ffffff;
+}
+.black-layer .container .btn-x:hover {
+  color: #FC2222;
+  background-color: #ffffff;
+}
+.black-layer .container .button {
+  background-color: transparent;
+  transform: translate(0px, -464px);
+}
+.black-layer .container .button svg {
+  color: #FC2222;
+}
+
+@media (max-width: 767px) {
+  header .carousel .carousel-item .carousel-caption h5 {
+    font-size: 16px;
+  }
+  header .carousel .carousel-item .carousel-caption p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 476px) {
+  h2::after {
+    left: 33% !important;
+  }
+  footer .footer-img {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 477px) and (max-width: 767px) {
+  h2::after {
+    left: 39% !important;
+  }
+  .header-services::after {
+    left: 37% !important;
+  }
+  .header-about::after {
+    left: 37% !important;
+  }
+  footer .footer-img {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  h2::after {
+    left: 40% !important;
+  }
+  .tourist-tour-header::after {
+    left: 43% !important;
+  }
+  .contact-us-header::after {
+    left: 43% !important;
+  }
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+  .header-services::after {
+    left: 43% !important;
+  }
+  .header-about::after {
+    left: 43% !important;
+  }
+  .tourist-tour-header::after {
+    left: 44% !important;
+  }
+  .contact-us-header::after {
+    left: 44% !important;
+  }
+}
+header nav {
+  transition: 0.3s ease;
+  z-index: 2;
+}
+header nav .container .navbar-brand img {
+  width: 50px;
+  height: 50px;
+  filter: invert(19%) sepia(87%) saturate(4316%) hue-rotate(352deg) brightness(98%) contrast(111%);
+}
+header nav .container .navbar-collapse .navbar-nav .nav-item a {
+  color: black;
+}
+header nav .container .navbar-collapse .navbar-nav .nav-item a:hover {
+  background-color: #EEEEEE;
+  color: #FC2222;
+}
+header nav .container .navbar-collapse .navbar-nav .nav-item a.active {
+  background-color: #EEEEEE;
+  color: #FC2222;
+}
+header nav .container .navbar-collapse .btn-login {
+  background-color: #FC2222;
+  color: #ffffff;
+}
+header nav .container .navbar-collapse .btn-login:hover {
+  color: #FC2222;
+  background-color: #ffffff;
+}
+header nav.active {
+  background-color: #ffffff;
+  height: 100px;
+}
+header .carousel {
+  padding-top: 80px;
+}
+header .carousel .carousel-indicators img {
+  height: 50px;
+  width: 50px;
+}
+header .carousel .carousel-inner .carousel-item img {
+  height: 600px;
+}
+header .carousel .carousel-inner .carousel-item .carousel-caption {
+  top: 30%;
+}
+header .carousel .carousel-inner .carousel-item .carousel-caption .btn {
+  background-color: #FC2222;
+  color: #ffffff;
+}
+header .carousel .carousel-inner .carousel-item .carousel-caption .btn:hover {
+  color: #FC2222;
+  background-color: #ffffff;
+}
+
+main {
+  padding-top: 80px;
+}
+main .about-us {
+  margin-bottom: 80px;
+}
+main .about-us h2 {
+  position: relative;
+}
+main .about-us h2::after {
+  content: "";
+  position: absolute;
+  width: 140px;
+  height: 2px;
+  background-color: #FC2222;
+  bottom: -22px;
+  left: 45%;
+}
+main .about-us .about-text {
+  width: 50%;
+  margin: 60px auto 20px;
+}
+main .about-us .btn {
+  background-color: #FC2222;
+  color: #ffffff;
+}
+main .about-us .btn:hover {
+  color: #FC2222;
+  background-color: #ffffff;
+}
+main .services {
+  background-color: #F8F8F8;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+main .services h2 {
+  position: relative;
+}
+main .services h2::after {
+  content: "";
+  position: absolute;
+  width: 140px;
+  height: 2px;
+  background-color: #FC2222;
+  bottom: -22px;
+  left: 45%;
+}
+main .services p {
+  width: 50%;
+  margin: 60px auto 60px;
+}
+main .services .row svg {
+  width: 50px;
+  height: 50px;
+  margin: 20px auto;
+  color: #FC2222;
+}
+main .services .row img {
+  width: 50px;
+  height: 50px;
+  filter: invert(19%) sepia(87%) saturate(4316%) hue-rotate(352deg) brightness(98%) contrast(111%);
+  margin: 20px auto;
+}
+main .services .row p {
+  margin: 20px auto;
+  width: 75%;
+}
+main .tourist-tour {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #ffffff;
+}
+main .tourist-tour h2 {
+  position: relative;
+}
+main .tourist-tour h2::after {
+  content: "";
+  position: absolute;
+  width: 140px;
+  height: 2px;
+  background-color: #FC2222;
+  bottom: -22px;
+  left: 45%;
+}
+main .tourist-tour .container .row {
+  margin-top: 50px;
+}
+main .tourist-tour .container .row .card {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+main .tourist-tour .container .row .card:hover .card-body {
+  bottom: 0;
+}
+main .tourist-tour .container .row .card:hover img {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
+main .tourist-tour .container .row .card span {
+  position: absolute;
+  top: 35px;
+  background-color: #FC2222;
+  color: #ffffff;
+  padding: 10px;
+  z-index: 2;
+}
+main .tourist-tour .container .row .card .card-body {
+  position: absolute;
+  bottom: -500px;
+  background-color: #ffffff;
+  transition: 0.5s ease;
+}
+main .tourist-tour .container .row .card .card-body h5 {
+  font-size: 20px;
+  background-color: transparent;
+}
+main .tourist-tour .container .row .card .card-body .card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+main .tourist-tour .container .row .card .card-body .btn {
+  background-color: #FC2222;
+  color: #ffffff;
+  width: 150px;
+}
+main .tourist-tour .container .row .card .card-body .btn:hover {
+  color: #FC2222;
+  background-color: #ffffff;
+}
+
+footer {
+  padding-top: 80px;
+  background-color: #F8F8F8;
+}
+footer .contact-us h2 {
+  position: relative;
+}
+footer .contact-us h2::after {
+  content: "";
+  position: absolute;
+  width: 140px;
+  height: 2px;
+  background-color: #FC2222;
+  bottom: -22px;
+  left: 45%;
+}
+footer .contact-us .container .logo-footer {
+  filter: invert(19%) sepia(87%) saturate(4316%) hue-rotate(352deg) brightness(98%) contrast(111%);
+  width: 150px;
+  height: 150px;
+}
+footer .contact-us .container svg {
+  color: #FC2222;
+}
+footer .copyRight {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+}
+footer .copyRight h2 {
+  color: #FC2222;
+  font-size: 16px;
+}/*# sourceMappingURL=style.css.map */

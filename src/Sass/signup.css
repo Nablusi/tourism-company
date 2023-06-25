@@ -1,0 +1,29 @@
+.main-signup {
+  background-image: url("../images/loginBackground.jpg");
+  height: 106vh;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+.main-signup .container h2 span {
+  color: #FC2222;
+}
+.main-signup .container .form-sigup {
+  background-color: rgba(254, 36, 31, 0.2);
+  padding: 30px;
+  width: 50%;
+}
+.main-signup .container .form-sigup button {
+  background-color: #FC2222;
+  color: #ffffff;
+}
+.main-signup .container .form-sigup button:hover {
+  color: #FC2222;
+  background-color: #ffffff;
+}
+.main-signup .container .form-sigup label {
+  color: #ffffff;
+}
+.main-signup .container .form-sigup a {
+  color: #ffffff;
+}/*# sourceMappingURL=signup.css.map */

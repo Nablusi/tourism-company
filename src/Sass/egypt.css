@@ -1,0 +1,83 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  .black-layer .container .button {
+    transform: translate(0px, -382px) !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .black-layer .container .button {
+    transform: translate(0px, -250px) !important;
+  }
+}
+@media (min-width: 477px) and (max-width: 767px) {
+  .black-layer .container .button {
+    transform: translate(0px, -200px) !important;
+  }
+}
+@media (max-width: 476px) {
+  .black-layer .container .button {
+    transform: translate(0px, -158px) !important;
+  }
+}
+.main-egypt .background-egypt {
+  background-image: url("../images/egypt/2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 300px;
+  z-index: 0;
+}
+.main-egypt .background-egypt::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.244);
+  z-index: -1;
+}
+.main-egypt .background-egypt h2 {
+  color: #FC2222;
+  display: flex;
+  justify-content: center;
+  transform: translateY(113px);
+}
+.main-egypt .container {
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+.main-egypt .container .row h5 {
+  color: #FC2222;
+}
+.main-egypt .container .row p {
+  line-height: 1.7;
+}
+
+.black-layer {
+  background-color: rgba(0, 0, 0, 0.345);
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: -200vh;
+  transition: 0.5s linear;
+  z-index: 3;
+  overflow-y: scroll;
+}
+.black-layer .container h2 {
+  color: #FC2222;
+  padding-top: 160px;
+}
+.black-layer .container .btn-x {
+  background-color: #FC2222;
+  color: #ffffff;
+}
+.black-layer .container .btn-x:hover {
+  color: #FC2222;
+  background-color: #ffffff;
+}
+.black-layer .container .button {
+  background-color: transparent;
+  transform: translate(0px, -464px);
+}
+.black-layer .container .button svg {
+  color: #FC2222;
+}/*# sourceMappingURL=egypt.css.map */

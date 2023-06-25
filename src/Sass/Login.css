@@ -1,0 +1,29 @@
+.main-login {
+  background-image: url("../images/jordan-agaba.jpg");
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+.main-login .container .col-md-6 {
+  background-color: rgba(254, 36, 31, 0.2);
+  transform: translateY(81px);
+  padding: 30px;
+}
+.main-login .container .col-md-6 h2 {
+  color: #ffffff;
+}
+.main-login .container .col-md-6 h2 span {
+  font-size: 40px;
+  color: #FC2222;
+}
+.main-login .container .col-md-6 button {
+  background-color: #FC2222;
+  color: #ffffff;
+}
+.main-login .container .col-md-6 button:hover {
+  color: #FC2222;
+  background-color: #ffffff;
+}
+.main-login .container .col-md-6 label, .main-login .container .col-md-6 a {
+  color: #ffffff;
+}/*# sourceMappingURL=Login.css.map */

@@ -1,0 +1,36 @@
+.aboutus-main {
+  padding-top: 160px;
+  padding-bottom: 80px;
+}
+.aboutus-main h2 {
+  color: #FC2222;
+}
+.aboutus-main .team-member {
+  padding-top: 80px;
+}
+.aboutus-main .team-member .card {
+  margin-top: 80px;
+  border: none;
+}
+.aboutus-main .team-member .card img {
+  height: 100px;
+  width: 100px;
+}
+.aboutus-main .team-member .card .social-media svg.fa-facebook-f {
+  font-size: 20px;
+}
+.aboutus-main .team-member .card .social-media svg.fa-facebook-f:hover {
+  color: #1877F2;
+}
+.aboutus-main .team-member .card .social-media svg.fa-twitter {
+  font-size: 20px;
+}
+.aboutus-main .team-member .card .social-media svg.fa-twitter:hover {
+  color: #1A8CD8;
+}
+.aboutus-main .team-member .card .social-media svg.fa-linkedin-in {
+  font-size: 20px;
+}
+.aboutus-main .team-member .card .social-media svg.fa-linkedin-in:hover {
+  color: #0A66C2;
+}/*# sourceMappingURL=aboutus.css.map */

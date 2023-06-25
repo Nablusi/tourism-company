@@ -1,0 +1,42 @@
+@import "./maxim";
+@import "./variable";
+
+.main-login{
+    background-image: url("../images/jordan-agaba.jpg");
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    // &::after{
+    //     background-color: #fe241f33;
+    //     content: "";
+    //     height: 100%;
+    //     position: absolute;
+    //     width: 100%;
+    //     z-index: 0;
+    //     top: 0;
+    // }
+    .container{
+        .col-md-6{
+            background-color: #fe241f33;
+            transform: translateY(81px);
+            padding: 30px;
+            h2
+            {
+                color: $white-color;
+                span{
+                    font-size: 40px;
+                    color:$main-color;
+                }
+            }
+            button{
+                @include button;
+            }
+            label, a{
+                color: $white-color;
+            }
+        }
+
+
+    }
+
+}

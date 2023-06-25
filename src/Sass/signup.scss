@@ -1,0 +1,53 @@
+@import "./maxim";
+@import "./variable";
+
+@media (min-width: 768px) and (max-width: 991px){
+.main-signup{
+    .container{
+        .form-sigup{
+            width:70% !important;
+        }
+    }
+    }
+}
+@media (max-width: 767px){
+.main-signup{
+    .container{
+        .form-sigup{
+            width:75% !important;
+        }
+    }
+    }
+}
+
+
+.main-signup{
+    background-image: url("../images/loginBackground.jpg");
+    height: 106vh;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    .container{
+
+        h2{
+            span{
+                color:$main-color;
+            }
+        }
+        .form-sigup{
+            background-color: #fe241f33;
+            padding: 30px;
+            width:50%;
+            button{
+                @include button;
+            }
+            label{
+                color:$white-color;
+            }
+            a{
+                color:$white-color;
+            }
+        }
+
+    }
+}

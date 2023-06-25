@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Sass/style.scss">
+    <title>سفرني</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+<header>
+    <!-- navbar starts  -->
+    <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#home"><img src="./images/download.png" class="img-fluid"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">الصفحة الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#about-us">من نحن</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#services">الخدمات</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#tourist-tour">الجولات السياحية </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#contact-us">تواصل معنا</a>
+              </li>
+            </ul>
+            <a href="login.html" class="btn btn-login" role="button">تسجيل الدخول</a>
+          </div>
+        </div>
+    </nav>
+    <!-- navbar ends -->
+    <!-- carousel starts -->
+    <div id="carousel-header" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <!-- <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel-header" data-bs-slide-to="1" aria-label="Slide 2"></button> -->
+          <img src="./images/turkey.jpg" data-bs-target="#carousel-header" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" />
+          <img src="./images/egypt.jpg" data-bs-target="#carousel-header" data-bs-slide-to="1" aria-label="Slide 2" />
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/turkey.jpg" class="img-fluid w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5 class="mb-4">رحلة إلى مدينة إسطنبول في تركيا</h5>
+              <p class="mb-4">هي واحدة من أكبر و أجمل مدن تركيا وهي مصنفة ضمن أكثر المدن السياحية جذباً للسياح في العالم وتُعتبر إسطنبول الخيار الأول للسياح الذين يفكرون في الذهاب إلى تركيا</p>
+              <a href="turkey.html" class="btn"> تفاصيل اكثر </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/egypt.jpg" class="img-fluid w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5 class="mb-4">رحلة إلى الأهرامات في مصر</h5>
+              <p class="mb-4">تتصف أهرامات مصر الثلاثة بأنها أحد أهم عجائب الدنيا السبعة في جمهورية مصر تقع على هضبة الجيزة في محافظة الجيزة</p>
+              <a href="egypt.html" class="btn"> تفاصيل اكثر </a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-header" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-header" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- carousel ends -->
+</header>
+<main class="main">
+    <section class="about-us" id="about-us">
+        <div class="container">
+            <h2 class="text-center header-about">من نحن</h2>
+            <p class="text-center about-text">الشركة السياحية الأفضل في الوطن العربي، هدفنا مساعدتك وتيسير أمورك، لا تتردد بالتواصل معنا فنحن هنا لنساعدك على إيجاد كل ما تحتاج له. إن كنت تبحث عن سكن أو جولة سياحية لتقضي أفضل الأوقات فقد وجدت طلبك.</p>
+            <div class="d-flex align-items-center justify-content-center"><a href="about-us.html" class="btn">تعرف على فريق العمل</a></div>
+        </div>
+    </section>
+    <section class="services" id="services"> 
+        <div class="container">
+            <h2 class="text-center header-services">خدمات الشركة </h2>
+            <p class="text-center">تقدم الشركة مجموعة متميزة من الخدمات التي تفيد المواطن و المسافر محلياً و عالمياً.</p>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <div class="d-flex flex-column ">
+                        <i class="fa-solid fa-hotel"></i>
+                        <h5 class="services-header">حجز سكن</h2>
+                        <p class="text-black-50">نقدم لكم خدمة الحجوزات في أفضل الفنادق والشقق ذات الإطلالة الرائعة والقريبة من جميع
+                                الخدمات.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="d-flex flex-column ">
+                        <i class="fa-solid fa-car"></i>
+                        <h5 class="services-header">حجز سيارة</h2>
+                        <p class="text-black-50">نقدم لكم خدمة حجز السيارات سواءً سيارات الأوتوماتيك أو السيارات العادي</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center mt-5">
+                    <div class="d-flex flex-column ">
+                        <img src="./images/tour-guide-icon-14.jpg">
+                        <h5 class="services-header"> جولات سياحية</h2>
+                        <p class="text-black-50">جولات سياحية خاصة مع أمهر السائقين كما نقدم جولات جماعية بأحدث الباصات مع أفضل المرشدين السياحيين الذين يُجيدون اللغة العربية ولإنجليزية.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center mt-5">
+                    <div class="d-flex flex-column ">
+                        <i class="fa-solid fa-plane-departure"></i>
+                        <h5 class="services-header"> الاستقبال من المطار</h2>
+                        <p class="text-black-50">نقدم لكم خدمة الاستقبال من المطار وتوديعكم في المطار بحيث يكون مندوبنا متواجد دائمًا في خدمتكم أثناء وصولكم أو ذهابكم للمطار مع أفضل وسائل النقل.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tourist-tour" id="tourist-tour">
+        <h2 class="text-center tourist-tour-header">الجولات السياحية</h2>
+        <div class="container">
+          <h5 class="text-center mt-5 mb-5 text-black-50">اختر وجهتك السياحية واحجز رحلتك الان!</h5>
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <span>السعر : 500$</span>
+                <img src="./images/turkey.jpg" class="img-fluid" />
+                <div class="card-body">
+                  <h5 class="card-header border-0 ps-0">رحلة إلى مدينة إسطنبول في تركيا.</h5>
+                  <p class="card-text">إسطنبول هي واحدة من أكبر و أجمل مدن تركيا وهي مصنفة ضمن أكثر المدن السياحية جذباً للسياح في العالم وتُعتبر إسطنبول الخيار الأول للسياح الذين يفكرون في الذهاب إلى تركيا. ستكون جولتنا في المعالم السياحية التالية</p>
+                  <div class="d-flex"><a href="turkey.html" class="btn" role="button">احجز الان</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card">
+                <span>السعر : 300$</span>
+                <img src="./images/egypt.jpg" class="img-fluid" />
+                <div class="card-body">
+                  <h5 class="card-header border-0 ps-0">رحلة إلى الأهرامات في مصر.</h5>
+                  <p class="card-text">تتصف أهرامات مصر الثلاثة بأنها أحد أهم عجائب الدنيا السبعة في جمهورية مصر تقع على هضبة الجيزة في محافظة الجيزة، أيضًا تقع على الضفة الغربية لنهر النيل، وهي تشمل ثلاثة أهرامات وهم خوفو، خفرع، منقرع، والتي بنيت قبل حوالي 25 قرنًا قبل الميلاد.</p>
+                  <div class="d-flex"><a href="egypt.html" class="btn" role="button">احجز الان</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+</main>
+<footer id="contact-us">
+  <section class="contact-us">
+    <h2 class="text-center contact-us-header">تواصل معنا </h2>
+    <div class="container">
+      <h5 class="text-center mt-5">لا تترد في التواصل معنا</h5>
+      <div class="row">
+        <div class="col-md-6 mt-5">
+          <div>
+            <div class="footer-img"><a class="logo-footer btn ps-0" href="#home" role="button"><img src="./images/download.png" class="img-fluid"></a></div>
+            <p class="para-footer">الشركة السياحية الأفضل في الوطن العربي، هدفنا مساعدتك وتيسير أمورك، لا تتردد بالتواصل معنا فنحن هنا لنساعدك على إيجاد كل ما تحتاج له.</p>
+            <div class="d-flex flex-row align-items-center mb-2">
+              <i class="fa-solid fa-phone"></i>
+              <p class="m-0 ms-2">05123456789</p>
+            </div>
+            <div class="d-flex flex-row align-items-center mb-2">
+              <i class="fa-solid fa-envelope"></i>
+              <p class="m-0 ms-2">zaid@gmail.com</p>
+            </div>
+            <div class="d-flex flex-row align-items-center mb-2">
+              <i class="fa-solid fa-location-dot "></i>
+              <p class="m-0 ms-2">شارع حيفا, نابلس</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-5">
+          <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=nablus&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://gachanox.io/">Gacha Nox Download</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="copyRight">
+    <h2 class="text-center">جميع الحقوق محفوظة @ <span class="copy-right"></span></h2>
+  </section>
+</footer>
+</body>
+</html>

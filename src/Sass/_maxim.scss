@@ -1,0 +1,24 @@
+@import "./variable";
+@mixin button { 
+    background-color: $main-color ;
+    color:$white-color;
+    &:hover{
+        color:$main-color;
+        background-color: $white-color;
+    }
+}
+
+@mixin header { 
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            width: 140px;
+            height: 2px;
+            background-color: $main-color;
+            bottom: -22px;
+            left: 45%;
+        }
+    
+}
+
